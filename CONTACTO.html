@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>contacto</title>
+</head>
+<body>
+    <style>
+        body{background-image: url(imagenes/Fondos/fondo_sugerencias.jpg);background-attachment: fixed;background-size: cover;}
+    </style>
+    <center>
+        <table border="1px solid blue">
+            <th><a href="index.html">INICIO</a></th>
+            <th><a href="NOTICIAS.html">NOTICIAS</a></th>
+            <th><a href="FOTOS.html">FOTOS</a></th>
+            <th><a href="MULTIMEDIA.html">ZONA MULTIMEDIA</a></th>
+            <th><a href="CONTACTO.html">SUGERENCIAS</a></th>
+            </table>
+            <h1 style="color: aqua;">SUEGERENCIAS</h1>
+        <table border="1px solid black">
+           <th><img src="imagenes/contacto/Mio_escribiendo.jpg" alt="Mio_escribiendo" style="width: 400px;"></th>
+        </table><br><br>
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif;">¡Ponte en contacto con nosotros para darnos tu opinion de la pagina y sugerir cosas que te gustaria que hubiera en esta!</p>
+    </center>
+    <form action="/GRACIAS.html">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="srname">Apellidos:</label>
+        <input type="text" id="Apellido" name="srname" required><br><br>
+        <label for="edad">Edad:</label>
+        <select name="edad" id="edad">
+        <option value="--">--</option>
+        <option value="0-1">0-1</option>
+        <option value="1-12">1-12</option>
+        <option value="13-17">13-17</option>
+        <option value="18-26">18-26</option>
+        <option value="27-39">27-39</option>
+        <option value="+40">+40</option>
+        </select><br>
+        <p>Grupo sanguineo:</p>
+        <input type="radio" id="a+" name="GrpSng" value="A+">
+        <label for="a+">A+</label>
+        <input type="radio" id="a-" name="GrpSng" value="A-">
+        <label for="a-">A-</label><br>
+        <input type="radio" id="b+" name="GrpSng" value="B+">
+        <label for="b+">B+</label>
+        <input type="radio" id="b-" name="GrpSng" value="b-">
+        <label for="b-">B-</label><br>
+        <input type="radio" id="ab+" name="GrpSng" value="ab+">
+        <label for="ab+">AB+</label>
+        <input type="radio" id="ab-" name="GrpSng" value="ab-">
+        <label for="ab-">AB-</label><br>
+        <input type="radio" id="o+" name="GrpSng" value="o+">
+        <label for="o+">O+</label>
+        <input type="radio" id="o-" name="GrpSng" value="o-">
+        <label for="o-">O-</label><br><br>
+        <label for="email" >Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="telefono">Telefono:</label>
+        <input type="telefono" id="telefono" name="telefono" required><br><br>
+        <textarea name="asunto" style="width: 500px;height: 150px;" required>Escriba su asunto!</textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html> 
